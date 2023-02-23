@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!---CSS-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      font-size: 100px;
+      text-align: center;
+      color: aliceblue;
+      font-family: sans-serif;
+    }
+
+    section {
+      background-color: dodgerblue;
+      align-content: center;
+      border-radius: 50px;
+      padding: 30px 50px;
+    }
+
+    h3,
+    h4,
+    h5 {
+      display: inline-block;
+      background-color: rgb(198, 3, 140);
+      padding: 20px 60px;
+      border-radius: 20px;
+      margin: 10px;
+    }
+
+    h4 {
+      background-color: rgb(125, 76, 2);
+      padding: 30px;
+    }
+
+    h5 {
+      background-color: aqua;
+      padding: 37px;
+    }
+  </style>
+</head>
+
+<body>
+  <!---HTML-->
+  <section>
+    <h1>Counter App</h1>
+    <h2>0</h2>
+    <hr>
+    <h3>Substract</h3>
+    <h4>Reset</h4>
+    <h5>Add</h5>
+  </section>
+  <!--JAVASCRIPTE--->
+  <script>
+
+    const h2 = document.querySelector("h2");
+    const h3 = document.querySelector("h3");
+    const h4 = document.querySelector("h4");
+    const h5 = document.querySelector("h5");
+
+    h3.addEventListener("click", () =>
+      h2.innerHTML--);
+
+
+    h4.addEventListener("click", () =>
+      h2.innerHTML = 0);
+
+
+    h5.addEventListener("click", () =>
+      h2.innerHTML++);
+  </script>
+
+
+</body>
+
+</html>

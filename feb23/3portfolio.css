@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+section{
+  background-color: dodgerblue;
+  height: 250px;
+  width: 100%;
+  font-size: 26px;
+}
+section h1{
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: 300;
+}
+section h1 span{
+  font-family: monospace;
+    font-size: 80px;
+    font-weight: 900;
+    display: block;
+}
+section h2 {
+  font-family: monospace;
+  font-size: 47px;
+  font-weight: 900;
+}
+nav{
+  color: wheat;
+background-color: aqua;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+nav h1{
+  font-family: sans-serif;
+display: block;
+line-height: 50px;
+}
+nav h1 span{
+  display: inline-block;
+  font-size: 25px;
+}
+nav ul{
+  display: flex;
+  display: block;
+}
+nav ul a{
+  text-decoration: none;
+  padding: 0px 20px;
+}

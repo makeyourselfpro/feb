@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.nav{
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  margin: 0;
+  padding: 0px;
+}
+.nav h1{
+  margin: 0;
+  padding: 10px;
+  font-size: 35px;
+  background-color: white;
+  color: black;
+  border: 10px solid rgb(0, 0, 0) ;
+  border-radius: 20px;
+}
+.nav h1:hover{
+  background-color: rgb(84, 83, 83);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  height: 70px;
+}
+.nav ul {
+  margin: 0;
+  padding: 20px;
+}
+
+.nav a {
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+
+.section{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to bottom left,rgb(0, 0, 0) ,rgba(43, 43, 43, 0.605),rgb(0, 0, 0));
+  font-size: 50px;
+}
+h1,p{
+  margin: 0;
+}
+
+.section h1{
+  text-shadow: 5px 15px 1px rgba(0, 0, 0, 0.837);
+    color: white;
+}
+
+
+p{
+  text-shadow: 1px 1px 1px white;
+}
+
+.section1{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+button{
+  height: 350px;
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.section1 h2{
+  text-align: center;
+  display: flex;
+  padding: 10px;
+}
+
+.section2 {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.section2 p{
+  width: 30%;
+}
+
+.section3 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.section3 button{
+  height: 100px;
+  width: 80%;
+  border-radius: 50px;
+  background-color: cadetblue;
+  font-size: 50px;
+}
+.section3 h1{
+  width: 100%;
+}
+
+footer{
+  padding:50px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}

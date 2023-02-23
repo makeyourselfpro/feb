@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: linear-gradient(to bottom,dodgerblue 50%,rgb(23, 23, 23 ) 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    .clock{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      background-color: rgb(28, 28, 28);
+      border: 20px solid rgb(45, 45, 45);
+    }
+    h1{
+      color: aliceblue;
+    }
+    .top{
+      margin-top: 2px;
+      margin-left:130px ;
+    }
+        .left{
+      padding-top: 70px;
+      margin-left:270px ;
+    }
+
+        .right{
+      padding-top: 70px;
+      margin-left:140px ;
+    }
+    
+        .bottom{
+      margin-top: -180px;
+      margin-left:10px ;
+    }
+    .hour{
+      background-color: rgb(118, 118, 118);
+      height: 70px;
+      width: 15px;
+      border-radius: 15px;
+      top: -37%;
+      left: 46%;
+      position: relative;
+    }
+
+        .minute{
+      background-color: rgba(0, 124, 248, 0.996);
+      height: 80px;
+      width: 10px;
+      border-radius: 5px;
+      top: -63%;
+      left: 47%;
+      position: relative;
+    }
+        .second{
+      background-color: rgb(243, 12, 127);
+      height: 90px;
+      width: 3px;
+      border-radius: 5px;
+      top: -94%;
+      left: 48%;
+      position: relative;
+    }
+    .dot{
+      height: 20px;
+      width: 20px;
+      background-color: aliceblue;
+      border-radius: 50px;
+      top: -98%;
+      left: 45%;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="clock">
+<h1 class="top">12</h1>
+<h1 class="left">3</h1>
+<h1 class="right">6</h1>
+<h1 class="bottom">9</h1>
+<div class="hour" id="hour-hand"></div>
+<div class="minute" id="minute-hand"></div>
+<div class="second" id="second-hand"></div>
+<div class="dot"></div>
+  </div>
+</body>
+</html>

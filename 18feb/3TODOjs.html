@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(207, 21, 1);
+  }
+  body{
+    align-items: center;
+justify-content: center;
+display: flex;
+height: 100vh;
+  }
+  .container{
+    width: 40%;
+    padding: 10px 20px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+  }
+  #task{
+    background-color: aliceblue;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 5px;
+    align-items: center;
+  }
+  #task input{
+    height: 50px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  #task button{
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: -10px 10px;
+    border-radius: 2px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+  #todotask{
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    height: 80px ;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+</style>
+<body>
+
+
+<div class="container">
+    <div  id="task">
+          <input type="text" placeholder="Erarch" id="">
+          <button id="push">Add</button>
+    </div>
+    <div id="todotask"></div>
+</div>
+
+
+</body>
+</html>

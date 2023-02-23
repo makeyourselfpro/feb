@@ -1,0 +1,47 @@
+nav{
+  background-color: rgb(105, 173, 240);
+  margin: 10px;
+}
+
+header {
+  margin: 10px;
+  background-color: rgb(151, 190, 228);
+}
+
+section {
+  margin: 10px;
+  background-color: rgb(2, 90, 177);
+}
+
+div{
+  height: 50vh ;
+  margin: 20px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+nav,header,section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navleft {
+  height: 20vh;
+  width: 200px;
+  margin: 20px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+}
+.navmiddle {
+  height: 20vh;
+  width: 20%;
+  margin: 20px;
+  background-color: rgb(0, 255, 157);
+  border-radius: 5px;
+}
+.navright{
+  height: 20vh ;
+  width: 100%;
+  margin: 20px;
+  background-color: rgb(166, 0, 255);
+  border-radius: 5px;
+}

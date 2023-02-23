@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+img{
+  height: 60%;
+  width: 60%;
+  display: inline-block;
+  padding: 0;
+  margin: 30px;
+  border-radius: 100px;
+  box-shadow: 10px 5px 1px rgba(0, 0, 0, 0.565);
+}
+section,main{
+  height: 96vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+
+  header,div,section,nav,footer {
+    width: 70%;
+  }
+}
+header{
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+    display: flex;
+    width: 100%;}
+header>ul{
+  display: inline-block;
+  font-size: 50px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 150%;
+}
+.list{
+  display: flex;
+  background-color: rgb(4, 177, 177);
+  justify-content: space-evenly;
+}
+
+.list>a{
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 40px;
+  color: aliceblue;
+}
+
+section{
+  background-color: aquamarine;
+  height: 96vh;
+  width: 100%;
+}
+
+section{background-color: rgb(91, 202, 202);}
+main{background-color: rgb(95, 123, 123);}
+footer{background-color: rgb(5, 69, 69);}
+
+div{
+  background-color: rgba(0, 255, 255, 0.474);
+  height: 95%;
+  width: 95%;
+  border: 3px solid black;
+  margin: 2%;
+  position: relative;
+  transition: 5.15s;
+}
+
+div:hover{
+rotate: 36000deg;
+border-radius: 1 00% 0;
+  cursor: pointer;
+  background-color: rgb(132, 0, 255);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{background-color: transparent; margin: 0%;padding: 0%; align-items: center; transition: 1.15s;}
+    body{
+      height: 100vh;
+    }
+    button{
+      font-size: 100px;
+      text-align: center;
+      margin: 20% 39%;
+      border: 10px solid black;
+      line-height: 120px;
+      width: 300px;
+      border-radius: 100px;
+      font-family: sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.237);
+      text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.305);
+    }
+    button:hover{rotate: 180deg;
+      width: 500px;
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="changeColor()">Click</button>
+  <script>
+function changeColor(){
+  document.body.style.backgroundColor=
+  'rgb('+ Math.round(Math.random() * 255) +
+    ',' +  Math.round(Math.random() * 255) + 
+   ',' +  Math.round(Math.random() * 255) +')';
+}
+  </script>
+</body>
+</html>
